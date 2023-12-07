@@ -1,11 +1,16 @@
+import { Header } from './components/Header';
 
 function App() {
 
+  const hola = "Hola Mundo";
 
-  
   return (
-     <h1>Hola mundo</h1>
+      <div className="my-20 max-w-lg mx-auto bg-white shadow p-10">
+        <Header/>
+      </div>
     )
 }
 
 export default App
+
+
