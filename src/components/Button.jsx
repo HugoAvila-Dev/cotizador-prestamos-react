@@ -1,7 +1,5 @@
 
 export const Button = ({ operador, fn }) => {
-
-    
     return (
         <button
             type='button'
