@@ -22,7 +22,7 @@ export const calcularTotalPagar = (cantidad, plazo) => {
     }
 
     //plazo - más plazo, mayor interés
-    if(plazo === 6) {
+    if (plazo === 6) {
         total *= 1.1;
     } else if (plazo === 12) {
         total *= 1.2;
